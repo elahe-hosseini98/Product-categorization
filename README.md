@@ -15,4 +15,8 @@ were created.
 Extracting tf-idf vectors on rejoining manually-preprocessed tokens
 4) **[Method #4]**<br>
 I concatenated title and tags for each row and used an extra punctuation removal
-step then extracted the tf-idf vector for each input string.
+step then extracted the tf-idf vector for each input string.<br>
+
+For each type of feature, I used a different classifier. An LSTM based deep learning
+model with an embedding layer for the first approach and also tested multi ML models
+on tf-idf feature vectors.
