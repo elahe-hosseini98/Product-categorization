@@ -1,4 +1,4 @@
-# Shopify-product-categorization
+# Product-categorization
 I used two different approaches for feature extraction, word embedding, and tf-idf
 vectors. A total of 4 different methods have been used to solve this problem.
 For the first feature extraction approach, to confect input string, I have used two
